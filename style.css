@@ -91,7 +91,7 @@ nav{
     color: rgb(188, 183, 183);
 }
 
-@media (min-width: 500px){
+@media (max-width: 500px){
     .container{
         width: 100vw;
         min-height: 50vh;
