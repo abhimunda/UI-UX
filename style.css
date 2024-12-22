@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    min-height: 80vh;
+}
+
+nav{
+    background-color: black;
+    height: 5vh;
+    width: 100vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.left{
+    height: 90vh;
+    width: 21vw;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+
+
+
+.left .cnt{
+    position: absolute;
+    top: 7rem;
+    left: 5.3rem;
+}
+
+.left .cnt h2, .right h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.left .cnt h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: grey;
+}
+
+.right{
+    background: linear-gradient(90deg, rgb(13, 13, 13),rgba(221, 107, 107, 0.426));
+    height: 70vh;
+    width: 25vw;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    position: absolute;
+    top: 4rem;
+    left: 13.7rem;
+    color: white;
+
+}
+
+.right h2{
+    position: absolute;
+    top: 3.1rem;
+}
+
+.dec{
+    height: 20vh;
+    width: 30vw;
+    position: absolute;
+    left: 5.5rem;
+    bottom: 4rem;
+}
+
+.dec p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: lighter;
+}
+
+#s{
+    color: rgb(188, 183, 183);
+}
+
+@media (max-width: 500px){
+    .container{
+        width: 100vw;
+        min-height: 50vh;
+    }
+
+    nav{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+
+    .left{
+        height: 50vh;
+        width: 46vw;
+    }
+
+    .right{
+        height: 43vh;
+        width: 24vw;
+    }
+
+    .left .cnt{
+        position: absolute;
+        top: 7rem;
+        left: 4rem;
+    }
+
+    .right h2{
+        right: 1.8rem;
+        position: absolute;
+    }
+
+    .dec{
+        height: 10vh;
+        width: 50vw;
+        position: absolute;
+        left: 4rem;
+        bottom: 8rem;
+    }
+
+    .dec p{
+        font-size: 1rem;
+    }
+}
